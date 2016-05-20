@@ -177,7 +177,7 @@ public class PostBarsController {
 			
 			for (Object[] follow:follows) {
 				
-				System.out.println(follow[0]);
+				//System.out.println(follow[0]);
 				if(follow[0].equals(user.getUname())){
 					System.out.println(true);
 					maps.put("isExist", true);
